@@ -4,29 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465aa15a-6415-4db5-a82d-d3bafe5319b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Planificacion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/manage.py" afterDir="false" />
+    <list default="true" id="465aa15a-6415-4db5-a82d-d3bafe5319b0" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Choices/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Choices/choices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Parametros_Recursos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Parametros_Recursos/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Parametros_Recursos/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Parametros_Recursos/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Parametros_Recursos/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Parametros_Recursos/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Parametros_Recursos/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Planificaciones/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Planificaciones/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Planificaciones/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Planificaciones/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Planificaciones/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Planificaciones/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Planificaciones/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Procesos_Actividades/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Procesos_Actividades/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Procesos_Actividades/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Procesos_Actividades/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Procesos_Actividades/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Procesos_Actividades/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Procesos_Actividades/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Proyecto/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Proyecto/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Proyecto/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Proyecto/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Proyecto/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Proyecto/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlanningMamagement/Proyecto/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;icpacifico&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/icpacifico/Sistema-de-Planificaci-n.git&quot;,
+    &quot;accountId&quot;: &quot;a5fa756b-6546-4e30-ac58-c207af8e1f35&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -42,8 +86,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Luis Pizarro/PycharmProjects/Planificacion"
+    "git-widget-placeholder": "desarrollo",
+    "last_opened_file_path": "C:/Users/Luis Pizarro/PycharmProjects/SistemaDeOperaciones"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -62,9 +106,31 @@
       <option name="presentableId" value="Default" />
       <updated>1725109585446</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1725898454218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725898454218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>
