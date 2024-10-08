@@ -14,7 +14,7 @@ class PlanificacionMaestra(models.Model):
     nombre = models.CharField(max_length=45, null=True)
     fecha_inicio_estimada = models.DateTimeField(null=True)
     fecha_fin_estimada = models.DateTimeField(null=True)
-    estado = models.IntegerField(null=True)
+    estado = models.CharField(max_length=50, choices=IS_ACTIVE_CHOICES, default=inactiva)
 
     class Meta:
         db_table = 'planificacion_maestra'
@@ -33,10 +33,15 @@ class DetallePlanMaestra(models.Model):
     proceso_constructivo = models.ForeignKey(ProcesoConstructivo, on_delete=models.CASCADE)
     fecha_inicio_estimada = models.DateTimeField(null=True)
     fecha_fin_estimada = models.DateTimeField(null=True)
+    estado = models.CharField(max_length=50, choices=IS_ACTIVE_CHOICES, default=inactiva)
+
 
     class Meta:
         db_table = 'detalle_plan_maestra'
         # ordering = ['nombre']
+
+    def __str__(self):
+        return str(self.planificacion_maestra)
 
 
 class PlanificacionIntermedia(models.Model):
@@ -45,6 +50,8 @@ class PlanificacionIntermedia(models.Model):
     nombre = models.CharField(max_length=45, null=True)
     fecha_inicio_estimada = models.DateTimeField(null=True)
     fecha_fin_estimada = models.DateTimeField(null=True)
+    estado = models.CharField(max_length=50, choices=IS_ACTIVE_CHOICES, default=inactiva)
+
 
     class Meta:
         db_table = 'planificacion_intermedia'
@@ -63,6 +70,8 @@ class DetallePlanIntermedia(models.Model):
     sub_proceso_constructivo = models.ForeignKey(SubProcesoConstructivo, on_delete=models.CASCADE)
     fecha_inicio_estimada = models.DateTimeField(null=True)
     fecha_fin_estimada = models.DateTimeField(null=True)
+    estado = models.CharField(max_length=50, choices=IS_ACTIVE_CHOICES, default=inactiva)
+
 
     class Meta:
         db_table = 'detalle_plan_intermedia'
@@ -75,6 +84,8 @@ class PlanificacionSemanal(models.Model):
     semana = models.IntegerField(null=True)
     fecha_inicio = models.DateTimeField(null=True)
     fecha_fin = models.DateTimeField(null=True)
+    estado = models.CharField(max_length=50, choices=IS_ACTIVE_CHOICES, default=inactiva)
+
 
     class Meta:
         db_table = 'planificacion_semanal'
@@ -108,6 +119,7 @@ class DetallePlanSemanal(models.Model):
     porcentaje_avance = models.FloatField(null=True)
     causa_no_cumplimiento = models.ForeignKey(Incidencia, on_delete=models.CASCADE)
     obervacion = models.TextField(null=True)
+    estado_actividad = models.CharField(max_length=50, choices=IS_ACTIVE_CHOICES, default=inactiva)
 
     class Meta:
         db_table = 'detalle_plan_semanal'

@@ -25,3 +25,10 @@ obras_exteriores = 'Obras Exteriores'
 FRENTES_CHOICES = [(obra_gruesa, 'Obra Gruesa'),
                   (terminaciones, 'Terminaciones'),
                   (obras_exteriores, 'Obras Exteriores'), ]
+
+activa = 'Activa'
+inactiva = 'Inactiva'
+
+
+IS_ACTIVE_CHOICES = [(activa, 'Activa'),
+                      (inactiva, 'Inactiva'),]

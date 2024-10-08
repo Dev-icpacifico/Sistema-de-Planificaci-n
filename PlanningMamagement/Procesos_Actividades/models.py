@@ -12,7 +12,7 @@ class Actividad(models.Model):
         ordering = ['nombre_actividad']
 
     def __str__(self):
-        return str(self.idactividad), "-", self.nombre_actividad
+        return str(self.nombre_actividad)
 
 
 class Incidencia(models.Model):
@@ -24,7 +24,7 @@ class Incidencia(models.Model):
         ordering = ['nombre_incidencia']
 
     def __str__(self):
-        return str(self.idincidencia), "-", self.nombre_incidencia
+        return str(self.nombre_incidencia)
 
 
 class ProcesoConstructivo(models.Model):
@@ -36,7 +36,7 @@ class ProcesoConstructivo(models.Model):
         ordering = ['nombre_proceso_constructivo']
 
     def __str__(self):
-        return str(self.idproceso_constructivo), "-", self.nombre_proceso_constructivo
+        return str(self.nombre_proceso_constructivo)
 
 
 class SubProcesoConstructivo(models.Model):
@@ -48,4 +48,4 @@ class SubProcesoConstructivo(models.Model):
         ordering = ['nombre_sub_proceso_constructivo']
 
     def __str__(self):
-        return str(self.idsub_proceso_constructivo), "-", self.nombre_sub_proceso_constructivo
+        return str(self.nombre_sub_proceso_constructivo)

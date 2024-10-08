@@ -86,7 +86,7 @@ class DetallePlanSemanalAdmin(admin.ModelAdmin):
             "Sección 4",
             {
                 "classes": ["collapse"],
-                "fields": ["recursos", ("porcentaje_avance", "obervacion")],
+                "fields": ["recursos", ("porcentaje_avance", "obervacion","causa_no_cumplimiento")],
             },
         ),
     ]
