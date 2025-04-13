@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="465aa15a-6415-4db5-a82d-d3bafe5319b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Planificacion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/PlanningMamagement/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlanningMamagement/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -42,8 +35,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Luis Pizarro/PycharmProjects/Planificacion"
+    "git-widget-placeholder": "dev-frontend",
+    "last_opened_file_path": "C:/Users/Luis Pizarro/PycharmProjects/Planificacion",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="SharedIndexes">
